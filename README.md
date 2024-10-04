@@ -6,7 +6,7 @@ The following software items are required to be installed in the machine prior t
 
 * System OS: Linux Ubuntu 24.04
 
-* Ruby version: 3.2.2 x86_64-linux
+* Ruby version: x86_64-linux version 3.2.2
 
 * System dependencies: yarn 1.22.22, node 18.15.0, npm 9.5.0, rails 7.0.8.4
 
