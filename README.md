@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple-App is a Ruby on Rails application built to run in a LINUX OS ENVIRONMENT (UBUNTU).
 
-Things you may want to cover:
+The following software items are required to be installed in the machine prior to the use of the application:
 
-* Ruby version
+* System OS: Linux Ubuntu 24.04
 
-* System dependencies
+* Ruby version: x86_64-linux version 3.2.2
 
-* Configuration
+* System dependencies: yarn 1.22.22, node 18.15.0, npm 9.5.0, rails 7.0.8.4
 
-* Database creation
+* Ruby Gems:
+    | "sprocket-rails"
+    | "sqlite3", "1.4"
+    | "puma", "5.0"
+    | "importmap-rails"
+    | "turbo-rails"
+    | "jbuilder"
+    | "tzinfo-data"
+  
+    Ruby Gems for group development
+      | "debug"
+      | "web-console"
+  
+    RubyGems for group test
+      | "capybara"
+      | "selenium-webdriver"
+      | "webdrivers"
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
