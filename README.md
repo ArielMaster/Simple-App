@@ -1,13 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Ruby on Rails application was build and meant to run in a LINUX OS ENVIRONMENT (UBUNTU)
 
-Things you may want to cover:
+The following items are required to be installed in the machine prior to the use of the application:
 
-* Ruby version
+* Ruby version: 3.2.2 x86_64-linux
 
-* System dependencies
+* System dependencies: yarn 1.22.22, node 18.15.0, npm 9.5.0, rails 7.0.8.4
+
+* Gem files: 
 
 * Configuration
 
