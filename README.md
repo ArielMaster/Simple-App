@@ -12,19 +12,19 @@ The following software items are required to be installed in the machine prior t
 
 * Gem files:
     | "sprocket-rails"
-    | "sqlite3"
-    | "puma"
+    | "sqlite3", "~> 1.4"
+    | "puma", "~> 5.0"
     | "importmap-rails"
     | "turbo-rails"
     | "jbuilder"
     | "tzinfo-data"
   
     Gem files | group development
-      -debug
-      -web-console
+      | "debug"
+      | "web-console"
     Gem files | group test
-      -capybara
-      -selenium-webdriver
-      -webdrivers
+      | "capybara"
+      | "selenium-webdriver"
+      | "webdrivers"
 
 
