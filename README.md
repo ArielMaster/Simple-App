@@ -27,5 +27,5 @@ The following software items are required to be installed in the machine prior t
       | "capybara"
       | "selenium-webdriver"
       | "webdrivers"
-
+<pre>sudo apt-get update</pre>
 
