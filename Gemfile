@@ -59,6 +59,9 @@ group :development do
   
   # gem bundler-audit required by Github Actions to run test
   gem "bundler-audit", "~> 0.9.2"
+
+  # Brakeman detects security vulnerabilities in Ruby on Rails applications via static analysis.
+  gem "brakeman", "~> 6.2", ">= 6.2.1"
  
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
