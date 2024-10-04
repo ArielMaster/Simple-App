@@ -1,6 +1,6 @@
 # README
 
-Simple-App is a Ruby on Rails application builded to run in a LINUX OS ENVIRONMENT (UBUNTU).
+Simple-App is a Ruby on Rails application built to run in a LINUX OS ENVIRONMENT (UBUNTU).
 
 The following software items are required to be installed in the machine prior to the use of the application:
 
@@ -11,13 +11,13 @@ The following software items are required to be installed in the machine prior t
 * System dependencies: yarn 1.22.22, node 18.15.0, npm 9.5.0, rails 7.0.8.4
 
 * Gem files:
-    |sprocket-rails
-    |sqlite3
-    |puma
-    |importmap-rails
-    |turbo-rails
-    |jbuilder
-    |tzinfo-data
+    | "sprocket-rails"
+    | "sqlite3"
+    | "puma"
+    | "importmap-rails"
+    | "turbo-rails"
+    | "jbuilder"
+    | "tzinfo-data"
   
     Gem files | group development
       -debug
