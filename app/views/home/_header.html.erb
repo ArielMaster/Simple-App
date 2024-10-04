@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag "header.css" %>
+<nav>
+    <div id="logo">Company LOGO</div>
+    <div>
+        <ul>
+            <li id="home"><a><%= link_to "HOME", home_index_path, title:"link to home page" %></a></li>
+            <li id="about"><a><%= link_to "ABOUT", home_about_path, title:"link to about page" %></li>
+            <li id="services"><a><%= link_to "SERVICES", home_services_path, title:"link to services page" %></li>
+            <li id="gallery"><a><%= link_to "GALLERY", home_gallery_path, title:"link to gallery page" %></li>
+            <li id="contact"><a><%= link_to "CONTACT", home_contact_path, title:"link to contact page" %></li>
+        </ul>
+    </div>
+</nav>

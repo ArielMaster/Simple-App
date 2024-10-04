@@ -1,0 +1,7 @@
+section {
+    grid-template-rows: 200px;
+    height: 200px;
+}
+div {
+    text-align: center;
+}

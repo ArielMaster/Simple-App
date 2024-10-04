@@ -1,0 +1,36 @@
+/*----------Stylesheet-for-_header.html.erb-----------*/
+/*---------------------Navigation---------------------*/
+nav {
+    display: grid; /* Grid Layout of the nav-menu */
+    width: 100%;
+}
+nav {
+    grid-template: 80px / 120px 1fr; /* Logo + link Menu layout */
+    grid-gap: 20px; /* Space between the logo and link Menu */
+}
+/*------------------------Logo------------------------*/
+div#logo {
+    text-align: center; /* Logo alignment */
+    background: rgb(243, 243, 243); /* Background color of Logo */
+}
+/*----------------UnOrdered-List-Menu-----------------*/
+ul {
+    display: flex; /* Unorder display List*/
+    flex-direction: row; /* Direction flow of the nav-menu */
+    list-style-type: none; /* Bullet point decoration removed form items in menu */
+    padding: 0;
+    margin: 0;
+}
+/*----------------List-Menu-Items---------------------*/
+li {
+    background: rgb(243, 243, 243); /* Background color of the list items */
+    width: 150px;
+    margin: 0 15px 15px 0;
+    padding: 5px;
+    text-align: center; /* Alignment of the list items */
+}
+/*------------------------Items------------------------*/
+a {
+    text-decoration: none; /* Removed the underline of the link menu item*/
+    color: #000;
+}
