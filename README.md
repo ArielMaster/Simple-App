@@ -12,8 +12,8 @@ The following software items are required to be installed in the machine prior t
 
 * Gem files:
     | "sprocket-rails"
-    | "sqlite3", "~> 1.4"
-    | "puma", "~> 5.0"
+    | "sqlite3", "1.4"
+    | "puma", "5.0"
     | "importmap-rails"
     | "turbo-rails"
     | "jbuilder"
