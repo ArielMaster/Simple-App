@@ -22,6 +22,7 @@ The following software items are required to be installed in the machine prior t
     Ruby Gems for group development
       | "debug"
       | "web-console"
+  
     RubyGems for group test
       | "capybara"
       | "selenium-webdriver"
