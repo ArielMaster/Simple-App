@@ -62,7 +62,10 @@ group :development do
 
   # Brakeman detects security vulnerabilities in Ruby on Rails applications via static analysis.
   gem "brakeman", "~> 6.2", ">= 6.2.1"
- 
+  
+  #RuboCop is aRuby code style checking and code formatting tool. It aims to enforce the community-driven Ruby Style Guide.
+  gem "rubocop", "~> 1.66", ">= 1.66.1"
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
