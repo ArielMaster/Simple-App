@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+group :production do
+  # Use pg when deploying to production
+  gem "pg", "~> 1.5", ">= 1.5.8"
+end
