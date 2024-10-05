@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-git_source(:github) { "https://github.com/#{repo}.git"}
+git_source(:github) { "https://github.com/#{repo}.git" }
 
 ruby '3.2.2'
 
@@ -58,7 +58,6 @@ group :development, :test do
 end
 
 group :development do
-
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem 'web-console'
 
@@ -79,7 +78,6 @@ group :development do
 
 end
 group :test do
-
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem 'capybara'
 
@@ -90,7 +88,6 @@ group :test do
 end
 
 group :production do
-
   # Use pg when deploying to production
   gem 'pg', '~> 1.5', '>= 1.5.8'
 
