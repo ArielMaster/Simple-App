@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class HomeController < ApplicationController
   def index
   end
@@ -10,7 +12,7 @@ class HomeController < ApplicationController
 
   def gallery
   end
-  
+
   def contact
   end
 end
