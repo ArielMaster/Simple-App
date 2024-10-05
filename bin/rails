@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# !/usr/bin/env ruby
+#!/usr/bin/env ruby # rubocop:disable Layout/LeadingCommentSpace
 APP_PATH = File.expand_path("../config/application", __dir__) # rubocop:disable Style/StringLiterals
 require_relative '../config/boot'
 require 'rails/commands'
