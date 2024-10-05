@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-git_source(:github) {|repo|'https://github.com/#{repo}.git'}
+git_source(:github) {'https://github.com/#{repo}.git'}
 
 ruby '3.2.2'
 
@@ -93,5 +93,5 @@ group :production do
 
   # Use pg when deploying to production
   gem 'pg', '~> 1.5', '>= 1.5.8'
-  
+
 end
