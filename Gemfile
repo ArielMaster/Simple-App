@@ -75,7 +75,6 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-
 end
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
@@ -84,11 +83,9 @@ group :test do
   gem 'selenium-webdriver'
 
   gem 'webdrivers'
-
 end
 
 group :production do
   # Use pg when deploying to production
   gem 'pg', '~> 1.5', '>= 1.5.8'
-
 end
