@@ -1,18 +1,13 @@
 # frozen_string_literal: true
 
 class HomeController < ApplicationController
-  def index
-  end
+  def index; end
 
-  def about
-  end
+  def about; end
 
-  def services
-  end
+  def services; end
 
-  def gallery
-  end
+  def gallery; end
 
-  def contact
-  end
+  def contact; end
 end
