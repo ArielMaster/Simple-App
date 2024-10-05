@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
-require_relative "../config/boot"
-require "rake"
+require_relative "../config/boot" # rubocop:disable Style/StringLiterals
+require "rake" # rubocop:disable Style/StringLiterals
 Rake.application.run
