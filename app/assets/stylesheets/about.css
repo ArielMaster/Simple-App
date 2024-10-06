@@ -1,0 +1,10 @@
+section {
+    grid-template-rows: 200px;
+    height: 200px;
+}
+div {
+    text-align: center;
+}
+body {
+    background-color: rgb(224, 244, 255);
+}

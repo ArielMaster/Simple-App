@@ -3,8 +3,6 @@
 nav {
     display: grid; /* Grid Layout of the nav-menu */
     width: 100%;
-}
-nav {
     grid-template: 80px / 120px 1fr; /* Logo + link Menu layout */
     grid-gap: 20px; /* Space between the logo and link Menu */
 }
