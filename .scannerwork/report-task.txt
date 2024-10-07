@@ -1,6 +1,6 @@
 projectKey=simple-app
-serverUrl=http://54.166.172.36:9000
+serverUrl=https://http://54.166.172.36:9000
 serverVersion=9.9.7.96285
-dashboardUrl=http://54.166.172.36:9000/dashboard?id=simple-app
-ceTaskId=AZJjj_ZsRDHUyok1nheB
-ceTaskUrl=http://54.166.172.36:9000/api/ce/task?id=AZJjj_ZsRDHUyok1nheB
+dashboardUrl=https://http//54.166.172.36:9000/dashboard?id=simple-app
+ceTaskId=AZJkvzJuRDHUyok1nheJ
+ceTaskUrl=https://http//54.166.172.36:9000/api/ce/task?id=AZJkvzJuRDHUyok1nheJ
